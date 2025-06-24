@@ -1,4 +1,4 @@
-<video src="assets/noteme.mp4" width="720"></video>
+![NoteMe Demo](assets/NoteMe.gif)
 
 A while ago, I came across an interesting concept proposed by AK: Generative GUI.
 
