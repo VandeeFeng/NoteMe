@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Menlo', monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: #adbac7;
+  background-color: #1c2128;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(118, 131, 144, 0.2);
+  color: #adbac7;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Terminal-style scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #22272e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444c56;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #768390;
+}
+
+/* Terminal-style cursor */
+[contenteditable] {
+  caret-color: #adbac7;
+  caret-shape: block;
+}
+
+/* Terminal-style selection */
+::selection {
+  background: rgba(118, 131, 144, 0.2);
+  color: #adbac7;
+}
